@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da8bfb4d-a402-4b79-b0b6-0b76eb364a4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/demo/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/demo/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/PlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/PlayerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functionalResult.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/functionalResult.jmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoResult.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/mongoResult.jmx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
