@@ -11,8 +11,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.util.BsonUtils;
 import org.springframework.scheduling.annotation.EnableAsync;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
-
+import java.util.List;
 
 
 @Configuration
@@ -28,10 +30,14 @@ public class RunnerApplication {
                 //Player{id=244677, name='M. Baldisimo', age=18, icon='https://cdn.sofifa.org/players/4/19/244677.png', national='Canada', winners=47, games=69, club='Vancouver Whitecaps FC'}
             //playerService.listAll().subscribe((player) -> System.out.println(player.toString()));
 
+                   /* List<Player> players = CsvUtilFile.getPlayers();
+                    Flux.fromIterable(players).flatMap(player -> playerService.insert(Mono.just(player))).subscribe(System.out::println);*/
+
+
             };
 
 
-        };
+        }
 
     }
 

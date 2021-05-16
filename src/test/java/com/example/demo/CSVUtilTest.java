@@ -77,7 +77,6 @@ public class CSVUtilTest {
     void testService() {
         Flux<Player> listFlux = playerService.listAll();
         var fluxLength = listFlux.count();
-        System.out.println(fluxLength.block());
         assert fluxLength.block() == 18207;
     }
 

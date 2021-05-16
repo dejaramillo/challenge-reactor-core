@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da8bfb4d-a402-4b79-b0b6-0b76eb364a4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/functionalResult.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/functionalResult.jmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongoResult.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/mongoResult.jmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/RunnerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/RunnerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/PlayerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/CSVUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/CSVUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,26 +90,13 @@
       <recent name="com.example.demo.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoApplication">
-    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplication" />
-      <module name="demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CSVUtilTest.reactive_filtrarJugadoresMayoresA35" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Tests in 'demo.test'">
+    <configuration name="CSVUtilTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.example.demo.CSVUtilTest.reactive_filtrarJugadoresMayoresA35&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.example.demo.CSVUtilTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -185,13 +175,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'demo.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CSVUtilTest.reactive_filtrarJugadoresMayoresA35Mongo" />
-        <item itemvalue="Gradle.CSVUtilTest.reactive_filtrarJugadoresMayoresA35" />
+        <item itemvalue="Gradle.Tests in 'demo.test'" />
+        <item itemvalue="Gradle.CSVUtilTest" />
         <item itemvalue="Gradle.CSVUtilTest.testService" />
-        <item itemvalue="Application.DemoApplication" />
         <item itemvalue="Gradle.CSVUtilTest.stream_filtrarJugadoresMayoresA35" />
+        <item itemvalue="Gradle.CSVUtilTest.reactive_filtrarJugadoresMayoresA35Mongo" />
       </list>
     </recent_temporary>
   </component>

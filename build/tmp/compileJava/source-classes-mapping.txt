@@ -4,11 +4,11 @@ com/example/demo/repo/PlayerRepository.java
  com.example.demo.repo.PlayerRepository
 com/example/demo/DemoApplication.java
  com.example.demo.DemoApplication
-com/example/demo/service/PlayerService.java
- com.example.demo.service.PlayerService
-com/example/demo/RunnerApplication.java
- com.example.demo.RunnerApplication
 com/example/demo/CsvUtilFile.java
  com.example.demo.CsvUtilFile
+com/example/demo/service/PlayerService.java
+ com.example.demo.service.PlayerService
 com/example/demo/controller/PlayerController.java
  com.example.demo.controller.PlayerController
+com/example/demo/RunnerApplication.java
+ com.example.demo.RunnerApplication

@@ -20,9 +20,7 @@ public class PlayerService {
 
     public Mono<Void> insert(Mono<Player> playerMono) {
         return playerMono
-                .switchIfEmpty(Mono.defer(() -> playerMono.doOnNext(playerRepository::save))).then();
-
-
+                .flatMap(playerRepository::save).then();
     }
 
     public Flux<Player> listAll(){
