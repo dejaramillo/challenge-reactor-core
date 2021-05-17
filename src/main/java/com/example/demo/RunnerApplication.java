@@ -26,12 +26,10 @@ public class RunnerApplication {
     @Bean
     CommandLineRunner demo() {
         return args -> {
-                //Player{id=238570, name='Song Bum Keun', age=20, icon='https://cdn.sofifa.org/players/4/19/238570.png', national='Korea Republic', winners=64, games=75, club='Jeonbuk Hyundai Motors'}
-                //Player{id=244677, name='M. Baldisimo', age=18, icon='https://cdn.sofifa.org/players/4/19/244677.png', national='Canada', winners=47, games=69, club='Vancouver Whitecaps FC'}
-            //playerService.listAll().subscribe((player) -> System.out.println(player.toString()));
 
-                   /* List<Player> players = CsvUtilFile.getPlayers();
-                    Flux.fromIterable(players).flatMap(player -> playerService.insert(Mono.just(player))).subscribe(System.out::println);*/
+            //playerService.listAll().subscribe((player) -> System.out.println(player.toString()));
+/*            List<Player> players = CsvUtilFile.getPlayers();
+            Flux.fromIterable(players).flatMap(player -> playerService.insert(Mono.just(player))).subscribe(System.out::println);*/
 
 
             };
